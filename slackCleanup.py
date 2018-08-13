@@ -94,7 +94,7 @@ def main():
             list_channels(slackClient)
         elif args.rename:
             print('Renaming Slack channels according to', get_csv())
-            rename_channels(slackClient, args.)
+            rename_channels(slackClient, args.file)
 
 
 main()
